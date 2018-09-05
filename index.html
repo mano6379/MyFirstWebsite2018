@@ -2,23 +2,45 @@
 <html>
     <head>
         <style>
+/*Comment in CSS*/
         
-/* 1. Set CSS My Element--set h1,h2,h3 elements to color blue text and bold text*/
+/* 1. Set CSS My Element--set h1,h2,h3 elements to color blue text*/
+            h1,h2,h3{
+                color: blue;
+                
+            }
+            
+            
             
 /*2. Create id--background color is light blue, text color is black, and text is aligned in the center*/
             
+            #mainHeading{
+                background-color: lightblue;
+                color: black;
+                text-align: center;
+                
+            }
+            
 /*3. Create a class--with image in background that does not repeat*/
+            
+            .introBackground
+            {
+                background-image: url(FP_line-drawing_color.png);
+                background-repeat: no-repeat;
+
+            }
             
         
         </style>
     
     </head>
-<body>
-
+<body class="introBackground">
+    
+<!--Comment in Body-->
 <h1>My First Heading</h1>
 
 
-<p >My Second Paragraph</p>
+<p id="mainHeading" >My Second Paragraph</p>
 
 </body>
 </html>
